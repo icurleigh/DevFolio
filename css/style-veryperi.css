@@ -1110,7 +1110,7 @@ a:hover {
 
 .work-img-box {
   max-width: 100%;
-  height: 14rem;
+  height: 220px;
 }
 
 /*======================================
@@ -1146,7 +1146,7 @@ a:hover {
 .testimonial-box .comit {
   font-size: 2rem;
   color: #6667ab;
-  background-color: #fff;
+  backgroud-color: #fff;
   width: 52px;
   height: 52px;
   display: block;
