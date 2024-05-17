@@ -88,8 +88,9 @@ li::marker {
 .bg-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
+  background-size: auto;
+  background-position-x: center;
+  background-position-y: -2.5rem;
 }
 
 .overlay-mf {
