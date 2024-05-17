@@ -193,11 +193,10 @@ a:hover {
 }
 
 /*------/ Mouse /------*/
-#mouse {
-  display: flex;
-  align-items: center;
-  margin-left: 49%;
-  padding-top: 50rem;
+.mouse-position {
+  position: relative;
+  top: 10rem;
+  margin: auto;
 }
 
 .scroll {
