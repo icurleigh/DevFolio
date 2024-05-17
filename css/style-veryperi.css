@@ -31,6 +31,11 @@ a:hover {
   position: relative;
 }
 
+li::marker {
+  color: #6667ab;
+  font-size: 10px;
+}
+
 .color-a {
   color: #6667ab;
 }
@@ -924,6 +929,10 @@ a:hover {
 
 .about-img {
   width: 275px;
+}
+
+.box-shadow-profile-pic {
+  box-shadow:0 0 0 4.5px #6667ab;
 }
 
 .about-info {
