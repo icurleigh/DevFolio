@@ -5,8 +5,13 @@
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
-  overflow: hidden; /* Hide scrollbars */
+  overflow: scroll;
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+} /* hide scrollbar */
 
 h1,
 h2,
@@ -1116,6 +1121,11 @@ li::marker {
 
 .w-title {
   font-size: 1.2rem;
+}
+
+ion-ios-plus-outline {
+  font-size: 2rem;
+  color: #6667ab;
 }
 
 /*======================================
