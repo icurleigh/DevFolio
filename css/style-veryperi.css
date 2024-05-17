@@ -958,11 +958,20 @@ li::marker {
 
 .about-mf .about-img {
   margin-bottom: 2rem;
+  margin-top: .75rem;
+  width: auto;
+  text-align: center;
 }
 
 .about-mf .about-img img {
-  margin-left: 10px;
+  max-width: 85%;
 }
+
+.about-mf .about-text {
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
 
 .skill-mf span {
   color: #4e4e4e;
