@@ -1288,6 +1288,15 @@ ion-ios-plus-outline {
   text-align: center;
 }
 
+.bg-image-project {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: auto;
+}
+
+
 /*------/ Comments /------*/
 
 .box-comments .list-comments li {
