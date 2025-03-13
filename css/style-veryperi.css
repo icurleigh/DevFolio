@@ -1286,9 +1286,10 @@ ion-ios-plus-outline {
 //--//-->   UNBLOC
 ======================================*/
 
-#deck{
+
+#deck-tmp{
   position: relative;
-  text-align: center;
+  margin: 1rem 5rem;
 }
 
 .bg-image-project {
@@ -1297,6 +1298,20 @@ ion-ios-plus-outline {
   background-size: cover;
   background-position-x: center;
   background-position-y: auto;
+}
+
+.deck-title {
+  color: #4B62C1;
+  font-weight: 600;
+  font-size: 3.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.deck-text {
+  color: #324DB0;
+  font-weight: 250;
+  font-size: 1.5rem;
+  margin-left: 3rem;
 }
 
 
