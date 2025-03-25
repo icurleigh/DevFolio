@@ -251,6 +251,12 @@ li::marker {
   border-radius: 100%;
   animation: trackBallSlide 5s linear infinite;
 }
+
+img {
+  pointer-events: none;
+-webkit-touch-callout: none;
+}
+
 @keyframes colorSlide {
   0% {
     background-position: 0% 100%;
